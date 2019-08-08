@@ -8,9 +8,6 @@ import org.apache.dubbo.rpc.Invoker;
 
 import com.aliware.tianchi.comm.CustomerInfo;
 
-/**
- * @author 阿里巴巴金融核心 -- 布玮
- */
 public class CustomerInfoManager {
 
     public static final Map<String, CustomerInfo> LOAD_INFO = new ConcurrentHashMap<>();

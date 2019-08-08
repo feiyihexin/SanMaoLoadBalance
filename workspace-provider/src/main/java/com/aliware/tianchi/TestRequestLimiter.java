@@ -3,7 +3,7 @@ package com.aliware.tianchi;
 import org.apache.dubbo.remoting.exchange.Request;
 import org.apache.dubbo.remoting.transport.RequestLimiter;
 
-/**@author 布玮
+/
  *
  * 服务端限流
  * 可选接口

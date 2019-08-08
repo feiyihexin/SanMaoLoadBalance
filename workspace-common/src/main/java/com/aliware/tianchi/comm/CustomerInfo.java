@@ -22,11 +22,11 @@ public class CustomerInfo {
         this.env = env;
         this.providerAllThreads = (int) (providerThread * 0.9);
         if ("large".equals(env)) {
-            this.serverWeight = 15;
+            this.serverWeight = 27;
         } else if ("medium".equals(env)) {
             this.serverWeight = 9;
         } else if ("small".equals(env)) {
-            this.serverWeight = 2;
+            this.serverWeight = 3;
         } else {
             this.serverWeight = 1;
         }

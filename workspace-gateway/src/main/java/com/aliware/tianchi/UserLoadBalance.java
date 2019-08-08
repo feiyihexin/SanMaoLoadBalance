@@ -12,9 +12,6 @@ import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.atomic.AtomicInteger;
 
-/**
- * @author 阿里巴巴金融核心 -- 布玮
- */
 public class UserLoadBalance implements LoadBalance {
 
     @Override

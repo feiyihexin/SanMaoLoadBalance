@@ -51,7 +51,7 @@ public class CallbackServiceImpl implements CallbackService {
                     ProviderManager.resetTime();
                 }
             }
-        }, 0, 1000);
+        }, 0, 100);
     }
 
     private Timer timer = new Timer();

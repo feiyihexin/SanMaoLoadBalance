@@ -77,8 +77,8 @@ public class UserLoadBalance implements LoadBalance {
                     }
 
                     // 计算权重
-                    weight = weight * (1000 / (clientTimeAvgSpendCurr * clientTimeAvgSpendCurr * clientTimeAvgSpendCurr))
-                    //weight = weight * (500 / clientTimeAvgSpendCurr);
+                    //weight = weight * (1000 / (clientTimeAvgSpendCurr * clientTimeAvgSpendCurr * clientTimeAvgSpendCurr))
+                    weight = weight * (1000 / clientTimeAvgSpendCurr);
                     serviceWeight[index] = weight;
                     totalWeight = totalWeight + weight;
                 }

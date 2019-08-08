@@ -11,9 +11,6 @@ import org.apache.dubbo.rpc.Invoker;
 import org.apache.dubbo.rpc.Result;
 import org.apache.dubbo.rpc.RpcException;
 
-/**
- * @author 阿里巴巴金融核心 -- 布玮
- */
 @Activate(group = Constants.CONSUMER)
 public class TestClientFilter implements Filter {
 
